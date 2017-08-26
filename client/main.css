@@ -1,0 +1,89 @@
+/* CSS declarations go here */
+.resturant-container {
+  width: 100%;
+  height: 270px;
+  border: 1px solid black;
+  margin-bottom: 5%;
+}
+
+.resturant-name {
+font-size: 30px;
+text-align: center;
+}
+
+.resturant-address {
+  text-align: center;
+  font-size: 15px;
+  margin-top: -1%;
+}
+
+.picture {
+  height: 150px;
+  width: 85%;
+  margin-top: 5px;
+}
+
+.image-container {
+  text-align: center;
+
+}
+.review-container {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+
+.hover:hover{
+  cursor: pointer;
+}
+.inactive-star {
+  cursor: pointer;
+
+}
+.active-star {
+  cursor: pointer;
+
+}
+.active-star {
+  display: inline-block;
+background: url('images/star.png');
+background-repeat: no-repeat;
+background-position: center;
+height: 50px;
+width: 50px;
+}
+
+.inactive-star {
+  display: inline-block;
+  background: url('images/star_off.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+  width: 50px;
+
+}
+
+
+
+.title {
+  margin-top: 5%;
+  font-size: 30px;
+}
+.app-blue {
+  background-color: #191970 !important
+
+}
+.add-button {
+  background-color: #191970 !important;
+  margin-bottom: 10px;
+}
+.inactive-button {
+  background-color: #6495ed !important;
+
+}
+.spacer {
+  margin-top: 25px;
+}
+.right-aligned {
+  text-align: right;
+}
